@@ -6,13 +6,21 @@ using namespace std;
 int main()
 {
   int row;
- int column;
+  int column;
   vector<vector< char > > starTable;
 
-  cout << "Enter the number of columns of stars:" << '\n';
-  cin >> column;
-  cout << "Enter the number of rows of stars:" << '\n';
+  cout << "Enter rows and columns of stars:  " << '\n';
   cin >> row;
+  cin >> column;
+  if(row<=0)
+  {
+    return 0;
+  }
+  if(column<=0)
+  {
+    return 0;
+  }
+
 
   starTable.resize(row);
 
