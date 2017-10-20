@@ -9,7 +9,7 @@ int main()
   int column;
   vector<vector< char > > starTable;
 
-  cout << "Enter rows and columns of stars:  " << '\n';
+  cout << "Enter rows and columns of stars:" << '\n';
   cin >> row;
   cin >> column;
   if(row<=0)
